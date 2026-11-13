@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.pyc
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+!plantillas/produccion_diaria_pozo.csv
+!plantillas/WOR_Modelo_Carga_Excel.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+.streamlit/secrets.toml
+.env
