@@ -338,20 +338,20 @@ with tab1:
         col.metric(label,val,help=unit);col.caption(unit)
     a,b=st.columns(2,gap='medium')
     with a:
-        section('Oil Production and Delivery · imagen adjunta','oil')
+        section('Oil Production and Delivery','oil')
         if images['oil']:
             st.image(images['oil'],caption='Imagen de producción / entregas cargada para este reporte',use_container_width=True)
         else:
             st.info('Espacio reservado: carga la imagen **01 · Oil Production and Delivery** desde la barra lateral.')
     with b:
-        section('Water Produced · imagen adjunta','water')
+        section('Water Produced','water')
         if images['water']:
             st.image(images['water'],caption='Imagen de producción de agua cargada para este reporte',use_container_width=True)
         else:
             st.info('Espacio reservado: carga la imagen **02 · Water Produced** desde la barra lateral.')
     a,b=st.columns([1,1],gap='medium')
     with a:
-        section('Production vs Forecast · imagen adjunta','oil')
+        section('Production vs Forecast','oil')
         if images['forecast']:
             st.image(images['forecast'],caption='Captura del pronóstico y producción real',use_container_width=True)
         else:
